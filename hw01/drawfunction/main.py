@@ -1,5 +1,3 @@
-from typing import Dict, List
-
 import ast
 import inspect
 
@@ -8,7 +6,7 @@ import networkx as nx
 from networkx.drawing.nx_pydot import graphviz_layout
 
 from simple_visitor import SimpleVisitor
-from fibonacci import fib
+from hw01.drawfunction.fibonacci import fib
 
 
 class GraphDescription:
