@@ -3,10 +3,11 @@ import inspect
 
 import matplotlib.pyplot as plt
 import networkx as nx
+import setuptools
 from networkx.drawing.nx_pydot import graphviz_layout
 
-from simple_visitor import SimpleVisitor
-from hw01.drawfunction.fibonacci import fib
+from drawfunction.fibonacci import fib
+from drawfunction.simple_visitor import SimpleVisitor
 
 
 class GraphDescription:
@@ -44,4 +45,5 @@ def draw(function):
 
 
 if __name__ == "__main__":
+    print(setuptools.find_packages())
     draw(fib)
