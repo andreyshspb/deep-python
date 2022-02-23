@@ -1,0 +1,2 @@
+AB hash: 20000
+CD hash: 20000
